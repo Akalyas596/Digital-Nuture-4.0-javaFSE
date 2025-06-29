@@ -59,20 +59,7 @@ BEGIN
     END IF;
 END TransferFunds;
 /
--- Check Customers
-SELECT * FROM Customers;
 
--- Check Accounts
-SELECT * FROM Accounts;
-
--- Check Transactions
-SELECT * FROM Transactions;
-
--- Check Loans
-SELECT * FROM Loans;
-
--- Check Employees
-SELECT * FROM Employees;
 
 EXEC ProcessMonthlyInterest;
 SELECT * FROM Accounts;
